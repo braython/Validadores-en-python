@@ -1,0 +1,49 @@
+# Convertir el valor del entero 70 a cadena
+x = 70
+a = str(x)
+print(a, type(a))
+
+# Convertir el valor del real 41.82 a cadena
+x = 41.82
+a = str(x)
+print(a, type(a))
+
+# Convertir el valor del booleano 12>=32 a cadena
+x = 12>=32
+a = str(x)
+print(a, type(a))
+
+# Convertir el valor de la cadena "Programacion I" a cadena
+x = "Programacion I"
+a = str(x)
+print(a, type(a))
+
+# Convertir el valor del entero 100 a cadena
+x = 100
+a = str(x)
+print(a, type(a))
+
+# Convertir el valor del real 230.72 a cadena
+x = 230.72
+a = str(x)
+print(a, type(a))
+
+# Convertir el valor del booleano 23<=93 a cadena
+x = 23<=93
+a = str(x)
+print(a, type(a))
+
+# Convertir el valor de la cadena "Electronica" a cadena
+x = "Electronica"
+a = str(x)
+print(a, type(a))
+
+# Convertir el valor del entero 85 a cadena
+x = 85
+a = str(x)
+print(a, type(a))
+
+# Converti el valor del booleano 13==50 a cadena
+x = 13==50
+a = str(x)
+print(a, type(a))

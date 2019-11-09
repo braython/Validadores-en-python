@@ -1,0 +1,20 @@
+# Calculadora nro18
+# Esta calculadora desarrolla el calculo de la tension de una cuerda
+
+# Mostrar variables
+masa,gravedad,tension=0,0.0,0.0
+
+# Calculadora
+masa=24
+gravedad=9.8
+tension=(masa*gravedad)
+
+# Mostrar datos
+print("masa = ", masa)
+print("gravedad = ", gravedad)
+print("tension = ", tension)
+
+# VERIFICADOR
+rigidez=(tension!=902)
+print("la rigidez es:", rigidez)
+

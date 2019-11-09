@@ -1,0 +1,19 @@
+# Calculadora nro2
+# Esta calculadora realiza el calculo del area del circulo
+
+# Declaracion de variables
+pi,radio,area_circulo=0.0,0.0,0.0
+
+# Calculadora
+pi=3.14
+radio=8.6
+area_circulo=(pi*radio**2)
+
+# Mostrar datos
+print("pi = ", pi)
+print("radio = ", radio)
+print("area_circulo = ", area_circulo)
+
+# VERIFICADOR
+area_total=(area_circulo<=198.34)
+print("El area total del circulo es:", area_total)

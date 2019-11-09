@@ -1,0 +1,19 @@
+# Calculadora nro3
+# Esta calculadora desarrollara el calculo de la distancia recorrida de un auto
+
+# Declaracion de variables
+velocidad,tiempo,distancia_recorrida=0.0,0.0,0.0
+
+# Calculadora
+velocidad=28
+tiempo=6
+distancia_recorrida=(velocidad*tiempo)
+
+# Mostrar Datos
+print("velocidad = ", velocidad)
+print("tiempo = ", tiempo)
+print("distancia_recorrida = ", distancia_recorrida)
+
+# VERIFICADOR
+longitud_del_recorrido=(distancia_recorrida==144)
+print("La longitud recorrida del auto es:", longitud_del_recorrido)

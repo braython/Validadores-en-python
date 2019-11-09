@@ -1,0 +1,19 @@
+# INPUT
+cliente=input("Nombre del cliente:")
+precio_de_licuadora=float(input("Ingrese el precio de licuadora:"))
+precio_de_lavadora=float(input("Ingrese el pecio de lavadora:"))
+precio_del_televisor=float(input("Ingrese el valor del televisor:"))
+
+# PROCESSING
+precio_total=(precio_de_licuadora+precio_de_lavadora+precio_del_televisor)
+
+# OUTPUT
+print("############################################")
+print("#    PLAZA VEA   ")
+print("############################################")
+print("#")
+print("# El precio de la licuadora es: s/.", precio_de_licuadora)
+print("# El precio de lavadora es    : s/.", precio_de_lavadora)
+print("# El precio del televisor es  : s/.", precio_del_televisor)
+print("# El precio total es          : s/.", precio_total)
+print("############################################")

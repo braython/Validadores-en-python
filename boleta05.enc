@@ -1,0 +1,20 @@
+# INPUT
+productos=input("Ingres los nombres de los productos:")
+pu_01=float(input("Ingrese el P.U 01:"))
+pu_02=float(input("Ingrese el P.U02:"))
+pu_03=float(input("Ingrese el P.U03:"))
+
+# PROCESSING
+importe_total=(pu_01+pu_02+pu_03)
+
+# OUTPUT
+print("##############################################")
+print("#  BOLETA DE VENTA ")
+print("##############################################")
+print("#")
+print("# Los productos son : ", productos)
+print("# El P.U 01 es     : s/.", pu_01)
+print("# El P.U es     : s/.", pu_02)
+print("# El P.U 03 es     : s/.", pu_03)
+print("# El importe total es: s/.", importe_total)
+print("##############################################")

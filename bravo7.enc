@@ -1,0 +1,19 @@
+# Calculadora nro7
+# Esta calculadora realizara el calculo del la ganancia de un pantalon
+
+# Declaracion de variables
+precio_venta,precio_compra,ganancia=0.0,0.0,0.0
+
+# Calculadora
+precio_venta=56.3
+precio_compra=46.3
+ganancia=(precio_venta-precio_compra)
+
+# Mostrar datos
+print("precio_venta = ", precio_venta)
+print("precio_compra = ", precio_compra)
+print("ganancia = ", ganancia)
+
+# VERIFICADOR
+ganancia_del_producto=(ganancia<115)
+print("El total de ganacia del producto es:", ganancia_del_producto)

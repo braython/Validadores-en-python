@@ -1,0 +1,19 @@
+# Calculadora nro20
+# Esta calculadora desarrollara el calculo de la aceleracion centripeta
+
+# Declaracion de variables
+velocidad_angular,radio,aceleracion_centripeta=0.0,0.0,0.0
+
+# Calculadora
+velocidad_angular=12
+radio=5.4
+aceleracion_centripeta=((velocidad_angular**2)*radio)
+
+# Mostrar datos
+print("velocidad_angular = ", velocidad_angular)
+print("aceleracion_centripeta = ", aceleracion_centripeta)
+print("radio = ", radio)
+
+# VERIFICACION
+aceleracion_centripeta=(aceleracion_centripeta>=543)
+print("La aceleracion centripeta es:", aceleracion_centripeta)

@@ -1,0 +1,19 @@
+# Calculadora nro5
+# Esta calculadora realizara el calculo de la fuerza que realiza un hombre para mover un bloque
+
+# Declaracion de variables
+masa,aceleracion,fuerza=0.0,0.0,0.0
+
+# Calculadora
+masa=7.15
+aceleracion=4.0
+fuerza=(masa*aceleracion)
+
+# Mostrar datos
+print("masa = ", masa)
+print("aceleracion = ", aceleracion)
+print("fuerza = ", fuerza)
+
+# VERIFICADOR
+fuerza_resultante=(fuerza!=69)
+print("La fuerza resultante es:", fuerza_resultante)

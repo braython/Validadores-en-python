@@ -1,0 +1,19 @@
+# Calculadora nro6
+# Esta calculadora realizara el calculo de la tangente de un angulo
+
+# Declaracion de variables
+cateto_opuesto,cateto_adyacente,tangente_del_angulo=0.0,0.0,0.0
+
+# Calculadora
+cateto_opuesto=3
+cateto_adyacente=4
+tangente_del_angulo=(cateto_opuesto/cateto_adyacente)
+
+# Mostrar datos
+print("cateto_opuesto = ", cateto_opuesto)
+print("cateto_adyacente = ", cateto_adyacente)
+print("tangente_del_angulo = ", tangente_del_angulo)
+
+# VERIFICADOR
+tangente_del_angulo=(tangente_del_angulo<0.24)
+print("La tangente del angulo es:", tangente_del_angulo)

@@ -1,0 +1,40 @@
+# Calculadora nro1
+# Esta calculadora realiza el calculo del area del trapezio
+
+# Declaracion de variables
+base_menor,base_menor,altura,area_trapezio=0.0,0.0,0.0,0.0
+
+# Calculadora
+base_menor=18
+base_mayor=36
+altura=24.5
+area_trapezio=((base_menor+base_mayor)*altura)/2
+
+# Mostrar datos
+print("base_menor = ", base_menor)
+print("base_mayor = ", base_mayor)
+print("altura = ", altura)
+print("area_trapezio = ", area_trapezio)
+
+# VEREFICADOR
+area_perfecta=(area_trapezio>660)
+print("El area perfecta del trapezio es:", area_perfecta)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+# INPUT
+descripcion=input("Ingrese descripcion:")
+valor_de_venta=float(input("Ingrese el valor de venta:"))
+igv=float(input("Ingrese el igv:"))
+
+# PROCESSING
+valor_total=(valor_de_venta+igv)
+
+# OUTPUT
+print("#####################################")
+print("#     BOLETA ELECTRONICA   ")
+print("#####################################")
+print("#")
+print("# La Descripcion es   : ", descripcion)
+print("# El valor de venta es: s/.", valor_de_venta)
+print("# El I.G.V es         : s/.", igv)
+print("# El valor total es   : s/.", valor_total)
+print("#####################################")

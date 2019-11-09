@@ -1,0 +1,19 @@
+# Calculadora nro9
+# Esta calculadora realizara el calculo de la longitud de honda
+
+# Declaracion de variables
+velocidad_de_la_luz,fuerza,longitud_de_honda=0.0,0.0,0.0
+
+# Calculadora
+velocidad=3*10**8
+fuerza=3
+longitud_de_honda=(velocidad/fuerza)
+
+# Mostrar datos
+print("velocidad = ", velocidad)
+print("fuerza = ", fuerza)
+print("longitud_de_honda = ", longitud_de_honda)
+
+# VERIFICADOR
+longitud_de_honda=(longitud_de_honda>=452)
+print("La longitud de honda es:", longitud_de_honda)

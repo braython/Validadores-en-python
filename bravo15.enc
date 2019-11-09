@@ -1,0 +1,23 @@
+# Calculadora nro15
+# Esta calculadora realizara el calculo de la media armonica de dos numeros
+
+# Declaracion de variables
+a,b,media_armonica=0.0,0.0,0.0
+
+# Calculadora
+a=25
+b=12
+media_armonica=(2*a*b)/(a+b)
+
+# Mostrar datos
+print("a = ", a)
+print("b = ", b)
+print("media_armonica = ", media_armonica)
+
+# VERIFICADOR
+media_armonica=(media_armonica>=36)
+print("La media armonica es:", media_armonica)
+
+
+
+

@@ -1,0 +1,19 @@
+# INPUT
+cliente=input("Ingrese el nombre del cliente:")
+sector=str(input("Ingrese el sector:"))
+entregador=int(input("Ingrese al entregador:"))
+
+# PROCESSING
+Total= 598
+
+# OUTPUT
+print("##########################")
+print("# RECIBO DE COBRANZA")
+print("##########################")
+print("#")
+print("# Cliente   : ", cliente)
+print("# Sector    : ", sector)
+print("# Entregador: ", entregador)
+print("# Total     : s/.", Total)
+print("##########################")
+

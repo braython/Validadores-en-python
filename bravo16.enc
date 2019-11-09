@@ -1,0 +1,20 @@
+# Calculadora nro16
+# Esta calculadora desarrollara es calculo de la medi arimetica de dos numeros
+
+# Declaracion de variables
+x,y,media_arimetica=0,0,0.0
+
+# Calculadora
+x=76
+y=48
+media_arimetica=(x+y)/2
+
+# Mostrar datos
+print("x = ", x)
+print("y = ", y)
+print("media_arimetica = ", media_arimetica)
+
+# VERIFICACION
+media_arimetica=(media_arimetica==245)
+print("La media aritmetica es:", media_arimetica)
+

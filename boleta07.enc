@@ -1,0 +1,20 @@
+# INPUT
+cliente=input("Ingrese el nombre del cliente:")
+precio_de_la_hibuprofeno=float(input("Ingrese el precio del Hibuprofeno:"))
+precio_de_omeprazol=float(input("Ingrese el precio de omeprazol:"))
+precio_del_alcohol=float(input("Ingrese el precio del alcohol:"))
+
+# PROCESSING
+total_a_pagar=(precio_de_la_hibuprofeno+precio_de_omeprazol+precio_del_alcohol)
+
+# OUTPUT
+print("#####################################")
+print("#  BOTICA - MI SALUD ")
+print("#####################################")
+print("#")
+print("# El precio del hibuprofeno es : s/.", precio_de_la_hibuprofeno)
+print("# El precio del omeprazol es   : s/.", precio_de_omeprazol)
+print("# El precio del alcohol es     : s/.", precio_del_alcohol)
+print("# El total a pagar es          : s/.", total_a_pagar)
+("###########################################")
+

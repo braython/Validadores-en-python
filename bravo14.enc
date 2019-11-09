@@ -1,0 +1,21 @@
+# Calculadora nro14
+# Esta calculadora realizara el calculo la sumatoria de una serie
+
+# Declaracion de variables
+primer_termino,ultimo_termino,terminos,sumatoria=0.0,0.0,0.0,0.0
+
+# Calculadora
+primer_termino=6
+ultimo_termino=72
+terminos=6.6
+sumatoria=((primer_termino+ultimo_termino)/2)*terminos
+
+# Mostrar datos
+print("primer_termino = ", primer_termino)
+print("ultimo_termino = ", ultimo_termino)
+print("numeros_terminos = ", terminos)
+print("sumatoria = ", sumatoria)
+
+# VERIFICADOR
+totalizar_la_serie=(sumatoria<=130)
+print("Totalizar la serie:", totalizar_la_serie)

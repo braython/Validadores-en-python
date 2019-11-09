@@ -1,0 +1,19 @@
+# Calculadora nro12
+# Esta calculadora realizar el calculo de la potencia
+
+# Declaracion de las variables
+trabajo,tiempo,potencia=0.0,0.0,0.0
+
+# Calculadora
+trabajo=350
+tiempo=50
+potencia=(trabajo/tiempo)
+
+# Mostrar datos
+print("trabajo = ", trabajo)
+print("tiempo = ", tiempo)
+print("potencia = ", potencia)
+
+# VERIFICADOR
+energia=(potencia!=7)
+print("La energia es:", energia)

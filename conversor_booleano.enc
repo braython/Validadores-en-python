@@ -1,0 +1,49 @@
+# Convertir el valor del  entero 768 a booleano
+x = 768
+a = bool(x)
+print(a, type(a))
+
+# Convertir el valor del flotante 123.63 a booleano
+x = 123.63
+a = bool(x)
+print(a, type(a))
+
+# Convertir el valor de la cadena "435" a booleano
+x = 435
+a = bool(x)
+print(a, type(a))
+
+# Convertir el valor booleano 45!=45 a booleano
+x = 45!=45
+a = bool(x)
+print(a, type(a))
+
+# Convertir el valor del entero 23 a booleano
+x = 23
+a = bool(x)
+print(a, type(a))
+
+# Convertir el valor del flotante 41.55 a booleano
+x = 41.55
+a = bool(x)
+print(a, type(a))
+
+# Convertir del valor booleano 34==39 a booleano
+x = 34==39
+a = bool(x)
+print(a, type(a))
+
+# Convertir el valor de la cadena "340" a booleano
+x = "340"
+a = bool(x)
+print(a, type(a))
+
+# Convertir el valor del flotante 14.91 a booleano
+x = 14.91
+a = bool(x)
+print(a, type(a))
+
+# Convertir el valor booleano 129.74>=549.723 a booleano
+x = 129.74>=549.723
+a = bool(x)
+print(a, type(a))

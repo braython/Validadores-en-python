@@ -1,0 +1,18 @@
+# INPUT
+angulo=float(input("Ingrese angulo:"))
+pi=float(input("Ingrese pi:"))
+tiempo=float(input("ingrese tiempo:"))
+
+# PROCESSING
+velocidad_angular=(angulo/tiempo)
+
+# OUTPUT
+print("################################")
+print("# FORMULA FISICA")
+print("################################")
+print("#")
+print("# El valor del ngulo es  : ", angulo)
+print("# El valor de  pi es     : ", pi)
+print("# El valor del tiempo es : ", tiempo)
+print("# La velocidad angular es: ", velocidad_angular )
+print("#################################")

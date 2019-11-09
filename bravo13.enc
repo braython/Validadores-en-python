@@ -1,0 +1,21 @@
+# Calculadora nro11
+# Esta calculadora realizara el calculo de la energia
+
+# Declaracion de variables
+masa,velocidad_de_la_luz,energia=0.0,0.0,0.0
+
+# Calculadora
+masa=16.5
+velocidad_de_la_luz=3*10**8
+energia=(masa*velocidad_de_la_luz**2)
+
+# Mostrar Datos
+print("masa = ", masa)
+print("velocidad_de_la_luz = ", velocidad_de_la_luz)
+print("energia = ", energia)
+
+# VERIFICADOR
+presteza_de_la_luz=(velocidad_de_la_luz>123456)
+print("La presteza de la luz es:", presteza_de_la_luz)
+
+

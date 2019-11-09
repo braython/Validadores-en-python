@@ -1,0 +1,21 @@
+# Calculadora nro10
+# Esta calculadora desarrollara el calculo de la velocidad angular
+
+# Declaracion de las variables
+angulo,pi,tiempo,velocidad_angular=0.0,0.0,0.0,0.0
+
+# Calculadora
+pi=3.14
+angulo=(2*pi)
+tiempo=60
+velocidad_angular= (angulo/tiempo)
+
+# Mostrar datos
+print("pi = ", pi)
+print("angulo = ", angulo)
+print("tiempo = ", tiempo)
+print("velocidad_angular = ", velocidad_angular)
+
+# VERIFICADOR
+rapidez_angular=(velocidad==24)
+print("La rapidez angular es:", rapidez_angular)

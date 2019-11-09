@@ -1,0 +1,22 @@
+# Calculadora nro8
+# Esta calculadora desarrollara el calculo del perimetro y area de un cuadrado
+
+# Declaracion de variables
+lado,area_del_cuadrado,perimetro_del_cuadrado=0.0,0.0,0.0
+
+# Calculadora
+lado=12
+perimetro_del_cuadrado=(4*lado)
+area_del_cuadrado=(lado**2)
+
+# Mostrar datos
+print("lado = ", lado)
+print("perimetro_del_cuadrado = ", perimetro_del_cuadrado)
+print("area_del_cuadrado = ", area_del_cuadrado)
+
+# VERIFICADOR
+sumas_de_lados=(perimetro_del_cuadrado>50)
+print("La suma de los lados del cuadrado es:", sumas_de_lados)
+
+superficie=(area_del_cuadrado>50)
+print("la superficie del cuadrado es:", superficie)

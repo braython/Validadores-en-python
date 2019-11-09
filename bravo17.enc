@@ -1,0 +1,19 @@
+# Calculadora nro17
+# Esta calculadora realizara el calculo de la presion
+
+# Declaracion de las variables
+fuerza,area,presion=0.0,0.0,0.0
+
+# Calculadora
+fuerza=37
+area=10
+presion=(fuerza/area)
+
+# Mostrar variables
+print("fuerza = ", fuerza)
+print("area = ", area)
+print("presion = ", presion)
+
+# VERIFICADOR
+empuje=(presion<=35)
+print("El empuje es:", empuje)

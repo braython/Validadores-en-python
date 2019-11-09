@@ -1,0 +1,19 @@
+# Calculadora nro13
+# Esta calculadora realizara el calculo de la densidad
+
+# Declaracion de variables
+masa,volumen,densidad=0.0,0.0,0.0
+
+# Calculadora
+masa=76
+volumen=4
+densidad=(masa/volumen)
+
+# Mostrar datos
+print("masa = ", masa)
+print("volumen = ", volumen)
+print("densidad = ", densidad)
+
+# VERIFICADOR
+peso_especifico=(densidad>=125)
+print("EL peso especifico es:", peso_especifico)

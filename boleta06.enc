@@ -1,0 +1,20 @@
+# INPUT
+figura_geometrica=input("EL nombre de la figura geometrica es:")
+base_menor=int(input("Ingrese la base menor:"))
+base_mayor=int(input("Ingrese la base mayor:"))
+altura=float(input("Ingrese la altura:"))
+
+# PROCESSING
+area=((base_mayor+base_menor)*altura)/2
+
+# OUTPUT
+print("################################################################")
+print("#    FORMULA GEOMETRICA")
+print("################################################################")
+print("#")
+print("# El nombre de la figura geometrica es: ", figura_geometrica)
+print("# La base menor es                    : ", base_menor)
+print("# La base mayor es                    : ", base_mayor)
+print("# La altura es                        : ", altura)
+print("# El area es                          : ", area)
+print("#################################################################")

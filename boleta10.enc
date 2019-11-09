@@ -1,0 +1,20 @@
+# INPUT
+cliente=input("Ingrese el nombre del cliente:")
+precio_del_arroz=float(input("Ingrece el precio del arroz:"))
+precio_de_la_manzana=float(input("Ingrese el precio de la manzana:"))
+precio_del_aceite=float(input("Ingrese el precio del aceite:"))
+
+#PROCESSING
+total=(precio_del_arroz+precio_de_la_manzana+precio_del_aceite)
+
+# OUTPUT
+print("#######################################")
+print("#    BODEGA - MI DANNA   ")
+print("#######################################")
+print("#")
+print("# El nombre del cliente es   : ", cliente)
+print("# El precio del arroz es     : s/,", precio_del_arroz)
+print("# El precio de la manzana es : s/.", precio_de_la_manzana)
+print("# El precio del aceite es    : s/.", precio_del_aceite)
+print("# El tota a pagar es         : s/,", total)
+print("#######################################")

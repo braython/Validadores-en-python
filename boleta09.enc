@@ -1,0 +1,19 @@
+# INPUT
+tema=input("Ingrese el nombre del tema es:")
+distancia=int(input("Ingrese la distancia:"))
+rapidez=int(input("Ingrese la rapidez:"))
+
+# PROCESSING
+tiempo=(distancia/rapidez)
+
+# OUTPUT
+print("####################################################")
+print("#   FORMULAS FISICAS       ")
+print("####################################################")
+print("#")
+print("# El tema es      : ", tema)
+print("# La distancia es : ", distancia)
+print("# La rapidez es   : ", rapidez)
+print("# El tiempo es    : ", tiempo)
+print("####################################################")
+

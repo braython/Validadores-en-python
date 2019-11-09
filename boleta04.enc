@@ -1,0 +1,18 @@
+# INPUT
+producto=input("Ingrese el producto:")
+precio_de_venta=float(input("Ingrese el precio de venta:"))
+precio_de_compra=float(input("Ingrese el precio de compra:"))
+
+# PROCESSING
+ganacia=(precio_de_venta-precio_de_compra)
+
+# OUTPUT
+print("#####################################")
+print("#   FORMULA MATEMATICA")
+print("#####################################")
+print("#")
+print("# El producto es        : ", producto)
+print("# El precio de venta es : s/.", precio_de_venta)
+print("# El precio de compra es: s/.", precio_de_compra)
+print("# La ganancia es        : s/.", ganacia)
+print("#####################################")
